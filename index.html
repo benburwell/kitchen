@@ -1,0 +1,20 @@
+---
+title: Kitchen
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="jumbotron">
+        <h1 class="display-4">Still cooking...</h1>
+        <p class="lead">This site is a work in progress. Forge ahead at your own peril!</p>
+      </div>
+      <h1>Recipes</h1>
+      <ul>
+        {% for recipe in site.recipes %}
+        <li><a href="{{recipe.url}}">{{recipe.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

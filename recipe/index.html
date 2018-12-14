@@ -1,0 +1,15 @@
+---
+layout: master
+title: Recipes
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Recipes</h1>
+      {% for recipe in site.recipes %}
+      <h2><a href="{{recipe.url}}">{{recipe.title}}</a></h2>
+      {% endfor %}
+    </div>
+  </div>
+</div>

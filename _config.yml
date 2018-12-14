@@ -1,0 +1,11 @@
+collections:
+  recipes:
+    output: true
+    permalink: /recipe/:path/
+defaults:
+  - values:
+      layout: master
+  - scope:
+      type: recipes
+    values:
+      layout: recipe
