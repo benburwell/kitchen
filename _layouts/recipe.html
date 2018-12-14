@@ -13,18 +13,22 @@ layout: master
         {% if page.adapted_from %}
         {% if page.adapted_from.url %}
         <li class="list-inline-item">Adapted from <a href="{{page.adapted_from.url}}">{{page.adapted_from.name}}</a></li>
+        {% else if page.adapted_from.isbn %}
+        <li class="list-inline-item">Adapted from <a href="https://isbnsearch.org/isbn/{{page.adapted_from.isbn}}">{{page.adapted_from.name}}</a></li>
         {% else %}
         <li class="list-inline-item">Adapted from {{page.adapted_from.name}}</li>
         {% endif %}
         {% endif %}
       </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-6">
       <h2>Ingredients</h2>
       {% for ingredient in page.ingredients %}
       <div class="row">
-        <div class="col-1">
-          {{ingredient.qty}}
-        </div>
         <div class="col-2">
+          {{ingredient.qty}}
           {{ingredient.unit}}
         </div>
         <div class="col">
@@ -35,11 +39,12 @@ layout: master
         </div>
       </div>
       {% endfor %}
+    </div>
+    <div class="col-12 col-lg-6">
       <h2>Procedure</h2>
       {% for step in page.procedure %}
       <p>{{step}}</p>
       {% endfor %}
-      {{content}}
     </div>
   </div>
 </div>

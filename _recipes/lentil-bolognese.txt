@@ -8,40 +8,40 @@ yield: 4 servings
 ingredients:
   - item: penne
     qty: 24
-    unit: ounce
+    unit: oz
   - item: olive oil
     qty: 4
-    unit: tablespoon
+    unit: T
   - item: onion
     qty: 1
-    prep: fine mince
+    prep: finely minced
   - item: large carrot
     qty: 2
-    prep: fine mince
+    prep: finely minced
   - item: red bell pepper
     qty: 1
-    prep: fince mince
+    prep: finely minced
   - item: sugar
     qty: 1
-    unit: teaspoon
+    unit: t
   - item: sea salt
     qty: 1
-    unit: teaspoon
+    unit: t
   - item: tomato paste
     qty: 5.5
-    unit: ounce
+    unit: oz
   - item: miso
     qty: 1
-    unit: tablespoon
+    unit: T
   - item: dried brown lentils
     qty: 1
-    unit: cup
+    unit: c
   - item: water
     qty: 4
-    unit: cup
+    unit: c
   - item: cherry tomatoes
     qty: 1
-    unit: cup
+    unit: c
     prep: halved
 procedure:
   - Heat olive oil in a large skillet over medium heat. Add the onion and cook

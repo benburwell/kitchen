@@ -1,0 +1,47 @@
+---
+# vim: ft=yaml
+title: White Bean Stew
+ingredients:
+  - item: extra virgin olive oil
+    qty: 0.25
+    unit: c
+  - item: garlic cloves
+    qty: 4
+    prep: thinly sliced
+  - item: red pepper flakes
+    qty: 0.25
+    unit: t
+  - item: canned diced tomatoes
+    qty: 14.5
+    unit: oz
+  - item: vegetable broth
+    qty: 1
+    unit: qt
+  - item: kosher salt
+    qty: 1
+    unit: t
+  - item: freshly ground black pepper
+    qty: 0.5
+    unit: t
+  - item: dried shell pasta
+    qty: 1
+    unit: c
+  - item: canned white beans
+    qty: 15
+    unit: oz
+    prep: drained
+  - item: bunch lacinato kale
+    unit: 1
+    prep: stemmed and chopped
+  - item: shaved parmesan
+  - item: toasted bread to serve
+procedure:
+  - Heat olive oil in a large pot over medium heat. Add garlic and red pepper
+    flakes and cook until fragrant, about 2 minutes.
+  - Add diced tomatoes with juice, season with salt and pepper, and cook about
+    2 more minutes.
+  - Add vegetable broth and pasta. Bring to a simmer and cook until pasta is
+    tender, about 5-8 minutes.
+  - Add white beans and kale and stir to wilt. Serve with toasted bread and
+    garnish with parmesan cheese.
+---

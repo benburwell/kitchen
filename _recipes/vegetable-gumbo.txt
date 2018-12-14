@@ -1,0 +1,54 @@
+---
+# vim: ft=yaml
+title: Vegetable Gumbo
+ingredients:
+  - item: vegetable oil
+    qty: 3
+    unit: T
+  - item: AP flour
+    qty: 3
+    unit: T
+  - item: small onion
+    qty: 1
+    prep: chopped
+  - item: celery stalks
+    qty: 2
+    prep: chopped
+  - item: garlic
+    qty: 3
+    unit: cloves
+    prep: chopped
+  - item: kosher salt
+  - item: freshly ground black pepper
+  - item: Worcestershire sauce
+    qty: 1
+    unit: T
+  - item: smoked paprika
+    qty: 1
+    unit: t
+  - item: vegetable broth
+    qty: 2
+    unit: c
+  - item: kale or swiss chard
+    qty: 1
+    unit: lb
+    prep: stemmed and chopped
+  - item: black eyed peas
+    qty: 10
+    unit: oz
+  - item: brown rice
+    prep: optional
+  - item: frozen cooked shrimp
+    prep: thawed and halved
+procedure:
+  - In a large pot over medium heat, make a blond roux with the oil and flour.
+  - Add the onion, celery, garlic, 3 T water. Season with salt and pepper.
+    Cover and cook until the vegetables soften, stirring occasionally, about 8
+    minutes.
+  - Mix in the Worcestershire sauce and paprika and cook about 30 seconds.
+  - Stir in vegetable broth, scraping browned bits from the bottom, cover, and
+    bring to a boil.
+  - Add the greens, black eyed peas, and shrimp (if using) to the pot. Reduce
+    the heat, cover. Simmer until tender (about 15 minutes), stirring
+    occasionally. Season with salt and pepper. Serve with brown rice, if using.
+---
