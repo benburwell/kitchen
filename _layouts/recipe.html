@@ -36,6 +36,16 @@ layout: master
           {% if ingredient.prep %}
           ({{ingredient.prep}})
           {% endif %}
+          {% if ingredient.divided %}
+          <span class="badge badge-primary">
+            Divided
+          </span>
+          {% endif %}
+          {% if ingredient.optional %}
+          <span class="badge badge-light">
+            Optional
+          </span>
+          {% endif %}
         </div>
       </div>
       {% endfor %}
