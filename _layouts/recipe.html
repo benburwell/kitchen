@@ -19,6 +19,11 @@ layout: master
         <li class="list-inline-item">Adapted from {{page.adapted_from.name}}</li>
         {% endif %}
         {% endif %}
+        {% if page.preheat %}
+        <li class="list-inline-item text-danger border-danger border-radius-1">
+          Preheat Oven {{page.preheat}}ºF
+        </li>
+        {% endif %}
       </ul>
     </div>
   </div>

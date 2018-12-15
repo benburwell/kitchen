@@ -29,14 +29,14 @@ ingredients:
     qty: 1
     unit: can
   - item: parmesan cheese
+preheat: 400
 procedure:
-  - Preheat oven to 400 F.
   - Cut the top off the head of garlic, revealing a small portion of each
     clove. Lightly drizzle with olive oil and wrap in aluminum foil.
   - Toss cauliflower florets with 2 T olive oil, salt and pepper to taste.
     Spread the florets in a single layer on a baking sheet with the garlic in
     the center.
-  - Bake cauliflower and garlic for 30 minutes.
+  - Bake cauliflower and garlic in 400º oven for 30 minutes.
   - Meanwhile, heat remaining olive oil in a large pot over medium-high heat.
     Add onions and cook until translucent (a few minutes).
   - Add carrots and celery, paprika, and salt. Cook a few minutes.
