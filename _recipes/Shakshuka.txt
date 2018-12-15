@@ -1,6 +1,7 @@
 ---
 # vim: ft=yaml
 title: Shakshuka
+adapted_from: Dinner - Changing the Game
 yield: 4 servings
 ingredients:
   - item: extra-virgin olive oil
