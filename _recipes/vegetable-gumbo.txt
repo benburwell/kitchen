@@ -30,9 +30,8 @@ ingredients:
   - item: vegetable broth
     qty: 4
     unit: c
-  - item: kale or swiss chard
+  - item: bunch kale or swiss chard
     qty: 1
-    unit: bundle
     prep: stemmed and chopped
   - item: black eyed peas
     qty: 10
