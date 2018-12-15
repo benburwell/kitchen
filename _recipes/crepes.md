@@ -1,4 +1,4 @@
-
+---
 # vim: ft=yaml
 title: Basic Crepe Batter Recipe
 adapted_from:
@@ -25,6 +25,10 @@ ingredients:
     qty: 1
     unit: T
     optional: yes
+  - item: fresh herbs, such as parsley, tarragon, chevril, or chives
+    qty: 1
+    unit: T
+    optional: yes
 procedure:
   - Combine eggs, milk, flour, melted butter, salt, and sugar (if using) in a blender. Start blender on low and increase to high. Blend until smooth, about 10 seconds. Add herbs (if using)smooth
   - Heat a 10-inch skillet over medium heat for 2 minutes. Lightly grease with butter or oil, using a paper towel to wipe out the excess.
@@ -33,5 +37,5 @@ procedure:
   - Cook on second side for 10 seconds, then transfer to a plate. 
   - Repeat with remainin batter.
   - Fill crepes and desired
-  ---
+---
 Crepes can be made ahead and stored, unfilled, and wrapped in plastic, in the refrigerator for up to 3 days. Reheat in a nonstick pan to serve.
