@@ -29,6 +29,7 @@ ingredients:
   - item: dark rum
     qty: 2
     unit: oz
+    optional: yes
   - item: large eggs
     qty: 3
     prep: well beaten
