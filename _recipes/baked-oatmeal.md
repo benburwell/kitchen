@@ -38,8 +38,8 @@ ingredients:
     prep: cut into half inch pieces
   - item: mixed berries
     qty: 1.5
-    unit: c  
-preheat: 375º 
+    unit: c
+preheat: 375
 procedure:
   - Generously butter the inside of an 8-inch baking dish.
   - Mix the oats, half the walnuts, sugar if using, baking powder, cinnamon, and salt.
