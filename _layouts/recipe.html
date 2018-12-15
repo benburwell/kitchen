@@ -31,34 +31,31 @@ layout: master
     <div class="col-12 col-lg-auto">
       <h2>Ingredients</h2>
       {% for ingredient in page.ingredients %}
-      <div class="mb-2 font-weight-bold">
-        {{ingredient.qty}}{{ingredient.unit}}
-        {% if ingredient.prep %}
-        {{ingredient.item}}, {{ingredient.prep}}
+        {% if ingredient.section %}
+          <h5>{{ingredient.section}}</h5>
+          {% for item in ingredient.items %}
+          {% include ingredient.html ingredient=item %}
+          {% endfor %}
         {% else %}
-        {{ingredient.item}}
+          {% include ingredient.html ingredient=ingredient %}
         {% endif %}
-        {% if ingredient.divided %}
-        <span class="badge badge-primary">
-          Divided
-        </span>
-        {% endif %}
-        {% if ingredient.optional %}
-        <span class="badge badge-light">
-          Optional
-        </span>
-        {% endif %}
-      </div>
       {% endfor %}
     </div>
     <div class="col-12 col-lg">
       <h2>Procedure</h2>
       {% for step in page.procedure %}
-      <p>{{step}}</p>
+        {% if step.section %}
+          <h5>{{step.section}}</h5>
+          {% for item in step.items %}
+          <p>{{item}}</p>
+          {% endfor %}
+        {% else %}
+          <p>{{step}}</p>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
-  {% if content.size > 0 %}
+  {% if content.size > 1 %}
   <div class="row">
     <div class="col">
       <h2>Notes</h2>

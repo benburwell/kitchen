@@ -1,0 +1,18 @@
+<div class="mb-2">
+  {{include.ingredient.qty}}{{include.ingredient.unit}}
+  {% if include.ingredient.prep %}
+  {{include.ingredient.item}}, {{include.ingredient.prep}}
+  {% else %}
+  {{include.ingredient.item}}
+  {% endif %}
+  {% if include.ingredient.divided %}
+  <span class="badge badge-primary">
+    Divided
+  </span>
+  {% endif %}
+  {% if include.ingredient.optional %}
+  <span class="badge badge-light">
+    Optional
+  </span>
+  {% endif %}
+</div>
