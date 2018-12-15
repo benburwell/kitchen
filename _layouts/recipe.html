@@ -62,4 +62,12 @@ layout: master
       {% endfor %}
     </div>
   </div>
+  {% if content.size > 0 %}
+  <div class="row">
+    <div class="col">
+      <h2>Notes</h2>
+      {{content}}
+    </div>
+  </div>
+  {% endif %}
 </div>
