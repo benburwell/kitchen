@@ -1,6 +1,9 @@
 ---
 # vim: ft=yaml
 title: Roasted Cauliflower Soup with Garlic
+adapted_from: 
+  name: Avocado Pesto
+  url: https://avocadopesto.com/roasted-cauliflower-soup/
 ingredients:
   - item: cauliflower head
     qty: 1
