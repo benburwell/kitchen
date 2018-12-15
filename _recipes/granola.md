@@ -31,7 +31,8 @@ ingredients:
  - item: nutmeg
  - item: salt  
  - item: dried fruit
-   optional: yes          
+   optional: yes 
+preheat: 300
 procedure:
   - 6 parts wet, 1 part dry.
   - Mix the dry ingredients. 3 parts rolled oats, 1 part nuts, 1 part seeds, 1 part something else (puffed rice works well).
