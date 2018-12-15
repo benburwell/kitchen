@@ -1,7 +1,9 @@
 ---
 # vim: ft=yaml
 title: Shakshuka
-adapted_from: Dinner - Changing the Game
+adapted_from: 
+  name: Dinner - Changing the Game
+  isbn: 9780553448238
 yield: 4 servings
 ingredients:
   - item: extra-virgin olive oil
