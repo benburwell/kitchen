@@ -28,34 +28,30 @@ layout: master
     </div>
   </div>
   <div class="row">
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-lg-auto">
       <h2>Ingredients</h2>
       {% for ingredient in page.ingredients %}
-      <div class="row">
-        <div class="col-2">
-          {{ingredient.qty}}
-          {{ingredient.unit}}
-        </div>
-        <div class="col">
-          {{ingredient.item}}
-          {% if ingredient.prep %}
-          ({{ingredient.prep}})
-          {% endif %}
-          {% if ingredient.divided %}
-          <span class="badge badge-primary">
-            Divided
-          </span>
-          {% endif %}
-          {% if ingredient.optional %}
-          <span class="badge badge-light">
-            Optional
-          </span>
-          {% endif %}
-        </div>
+      <div class="mb-2 font-weight-bold">
+        {{ingredient.qty}}{{ingredient.unit}}
+        {% if ingredient.prep %}
+        {{ingredient.item}}, {{ingredient.prep}}
+        {% else %}
+        {{ingredient.item}}
+        {% endif %}
+        {% if ingredient.divided %}
+        <span class="badge badge-primary">
+          Divided
+        </span>
+        {% endif %}
+        {% if ingredient.optional %}
+        <span class="badge badge-light">
+          Optional
+        </span>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-lg">
       <h2>Procedure</h2>
       {% for step in page.procedure %}
       <p>{{step}}</p>
