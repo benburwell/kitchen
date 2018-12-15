@@ -1,6 +1,9 @@
 ---
 # vim: ft=yaml
 title: Chana Masala
+adapted_from:
+  name: Nourish
+  isbn: 9781770502437
 yield: 4 servings
 ingredients:
   - item: extra virgin olive oil
@@ -22,6 +25,7 @@ ingredients:
   - item: cayenne pepper
     qty: 0.5
     unit: t
+    optional: yes
   - item: turmeric
     qty: 0.25
     unit: t
@@ -43,6 +47,7 @@ ingredients:
   - item: fresh lemon juice
     qty: 1
     unit: t
+  - item: cooked rice  
 procedure:
   - In a large skillet, heat oil over medium heat. Add onion and cook until the
     edges begin to brown, about 5 minutes.
