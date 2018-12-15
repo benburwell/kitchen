@@ -1,10 +1,11 @@
 ---
 # vim: ft=yaml
-title: Lemon Chickpea Pasta
+title: Lemony Chickpea Pasta
+source: Dinner - Changing the Game
 yield: 4 servings
 ingredients:
   - item: fusili or other short, sturdy pasta
-    qty: 8
+    qty: 12
     unit: oz
   - item: cooked chickpeas
     qty: 2
@@ -13,7 +14,7 @@ ingredients:
     qty: 0.25
     unit: c
   - item: garlic cloves
-    qty: 2
+    qty: 4
     prep: smashed and peeled
   - item: onion
     qty: 0.5
@@ -36,7 +37,7 @@ ingredients:
     qty: 1
     unit: T
   - item: lemon
-    qty: 0.5
+    qty: 1
     prep: zested
   - item: freshly ground black pepper
   - item: red pepper flakes
@@ -45,8 +46,7 @@ procedure:
   - Bring a large pot of salted water to a boil. Add the pasta and cook until
     it is just shy of al dente (it should be slightly underdone as it will
     finish in the sauce). Drain well.
-  - Meanwhile, prepare the sauce. Place chickpeas in a large bowl and use a
-    potato masher or fork to lightly mash them; they should be about half
+  - Meanwhile, prepare the sauce. Place chickpeas in a large bowl and lightly mash; they should be about half
     crushed.
   - Heat the oil in a skillet over medium heat. Add the garlic and fry until
     golden brown, about 2 minutes.
