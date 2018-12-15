@@ -1,17 +1,18 @@
 ---
 # vim: ft=yaml
 title: Butternut Squash, Sausage, and Kale Gnocchi
+adapted_from:
+  name: Two Peas & Their Pod
+  url: https://www.twopeasandtheirpod.com/butternut-squash-sausage-and-kale-gnocchi/
 yield: 4-6 servings
 ingredients:
-  - item: small butternut squash
+  - item: small butternut squash (about 2 cups)
     qty: 1
-    prep: peeled, seeded, and cut into 1/2-inch cubes (about 2c)
+    prep: peeled, seeded, and cut into 1/2-inch cubes
   - item: olive oil
     divided: yes
     qty: 2
     unit: T
-  - item: kosher salt
-  - item: freshly ground black pepper
   - item: potato gnocchi
     qty: 1
     unit: lb
@@ -40,6 +41,8 @@ ingredients:
     qty: 0.3
     unit: c
     prep: grated
+  - item: kosher salt
+  - item: freshly ground black pepper
 preheat: 400
 procedure:
   - Place butternut squash on a large baking sheet and drizzle with 1 T olive
