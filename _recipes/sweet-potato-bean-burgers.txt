@@ -1,6 +1,9 @@
 ---
 # vim: ft=yaml
 title: Sweet Potato Bean Burgers
+adapted_from:
+  name: Healthy Happy Life
+  url: http://kblog.lunchboxbunch.com/2012/02/easy-sweet-potato-veggie-burgers-with.html
 yield: 6-8 patties
 ingredients:
   - item: medium sweet potato
