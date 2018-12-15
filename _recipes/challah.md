@@ -43,7 +43,8 @@ ingredients:
       unit: T
     - item: salt
       qty: 0.5
-      unit: t      
+      unit: t
+preheat: 350
 procedure:
   - Pour 0.25c of the lukewarm water into a large mixing bowl. Add 1 packed of active dry yeast and 1t of sugar to the bowl, stir to dissolve. Wait 10 minutes.
   - The yeast should be expanded and foamy.
