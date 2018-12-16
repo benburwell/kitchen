@@ -1,6 +1,6 @@
 ---
 # vim: ft=yaml
-title: Basic Crepe Batter Recipe
+title: Crepes
 adapted_from:
   name: J. Kenji Lopez-Alt
   url: https://www.seriouseats.com/recipes/2017/03/basic-crepes-batter-recipe.html
