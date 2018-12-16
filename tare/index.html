@@ -12,69 +12,22 @@ title: Tare List
           All masses in grams
         </div>
       </h1>
-        <h2>Silver Bowls</h2>
-        <dl>
-          <dt>#1 (Large)</dt>
-          <dd>372</dd>
-          <dt>#2</dt>
-          <dd>260</dd>
-          <dt>#3</dt>
-          <dd>215</dd>
-          <dt>#4</dt>
-          <dd>198</dd>
-          <dt>#5</dt>
-          <dd>128</dd>
-          <dt>#6 (Small)</dt>
-          <dd>79</dd>
-        </dl>
 
-        <h2>Lettuce Spinner</h2>
-        <dl>
-          <dt>Basket</dt>
-          <dd>172</dd>
-          <dt>Bowl</dt>
-          <dd>421</dd>
-        </dl>
-
-        <h2>Glass Bowls</h2>
-        <dl>
-          <dt>Small Pyrex</dt>
-          <dd>166</dd>
-        </dl>
-
-        <h2>Colanders</h2>
-        <dl>
-          <dt>Green</dt>
-          <dd>83</dd>
-          <dt>Metal</dt>
-          <dd>424</dd>
-          <dt>Yellow</dt>
-          <dd>163</dd>
-        </dl>
-
-        <h2>Measuring Containers</h2>
-        <dl>
-          <dt>Cuisinart 500mL</dt>
-          <dd>100</dd>
-          <dt>OXO 500mL</dt>
-          <dd>118</dd>
-          <dt>Pyrex 2c</dt>
-          <dd>589</dd>
-        </dl>
-
-        <h2>Pots and Pans</h2>
-        <dl>
-          <dt>10 inch skillet</dt>
-          <dd>543</dd>
-          <dt>8 inch skillet</dt>
-          <dd>319</dd>
-          <dt>Glass pot</dt>
-          <dd>857</dd>
-          <dt>Grill pan</dt>
-          <dd>1099</dd>
-          <dt>Wok</dt>
-          <dd>1209</dd>
-        </dl>
+      <div class="card-columns">
+        {% for group in site.data.tare %}
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">{{group.name}}</h2>
+            <dl class="">
+            {% for tare in group.tares %}
+            <dt class="">{{tare.name}}</dt>
+            <dd class="">{{tare.tare}}</dd>
+            {% endfor %}
+            </dl>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

@@ -1,0 +1,52 @@
+- name: Silver Bowls
+  tares:
+    - name: "#1 (Large)"
+      tare: 372
+    - name: "#2"
+      tare: 260
+    - name: "#3"
+      tare: 215
+    - name: "#4"
+      tare: 198
+    - name: "#5"
+      tare: 128
+    - name: "#6 (Small)"
+      tare: 79
+- name: Lettuce Spinner
+  tares:
+    - name: Basket
+      tare: 172
+    - name: Bowl
+      tare: 421
+- name: Glass Bowls
+  tares:
+    - name: Small Pyrex
+      tare: 166
+- name: Colanders
+  tares:
+    - name: Green
+      tare: 83
+    - name: Metal
+      tare: 424
+    - name: Yellow
+      tare: 163
+- name: Measuring Containers
+  tares:
+    - name: Cuisinart 500mL
+      tare: 100
+    - name: OXO 500mL
+      tare: 118
+    - name: Pyrex 2c
+      tare: 589
+- name: Pots and Pans
+  tares:
+    - name: 10 inch skillet
+      tare: 543
+    - name: 8 inch skillet
+      tare: 319
+    - name: Glass pot
+      tare: 857
+    - name: Grill pan
+      tare: 1099
+    - name: Wok
+      tare: 1209

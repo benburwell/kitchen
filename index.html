@@ -9,12 +9,26 @@ title: Kitchen
         <h1 class="display-4">Still cooking...</h1>
         <p class="lead">This site is a work in progress. Forge ahead at your own peril!</p>
       </div>
-      <h1>Recipes</h1>
-      <ul>
-        {% for recipe in site.recipes %}
-        <li><a href="{{recipe.url}}">{{recipe.title}}</a></li>
-        {% endfor %}
-      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="card-group">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Recipes</h3>
+            <p class="card-text">Our collection of recipes we've refined over time.</p>
+            <a href="/recipes/" class="btn btn-primary">See Recipes</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Tare List</h3>
+            <p class="card-text">List of tare weights for pretty much all of the vessels in the kitchen.</p>
+            <a href="/tare/" class="btn btn-primary">See Tares</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
