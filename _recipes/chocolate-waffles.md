@@ -1,9 +1,6 @@
 ---
 # vim: ft=yaml
-title: Choffles
-adapted_from:
-  name: J. Kenji Lopez-Alt
-yield: 
+title: Chocolate Waffles
 ingredients:
   - item: AP flour
     qty: 7
