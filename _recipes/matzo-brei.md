@@ -10,9 +10,7 @@ ingredients:
     unit: pieces
   - item: egg
     qty: 1
-  - item: milk
-    qty: 1
-    unit: splash
+  - item: splash of milk
 procedure:
   - Wet 2 pieces of matzo and crust into bowl.
   - Scramble 1 egg with splash of milk and combine with matzo.
