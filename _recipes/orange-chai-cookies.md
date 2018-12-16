@@ -2,8 +2,8 @@
 # vim: ft=yaml
 title: Orange Chai Spiced Cookies
 adapted_from:
-  - name: Bowl of Delicious
-  - url: https://www.bowlofdelicious.com/orange-chai-spice-cookies-made-with-whole-wheat-flour/
+  name: Bowl of Delicious
+  url: https://www.bowlofdelicious.com/orange-chai-spice-cookies-made-with-whole-wheat-flour/
 yield: 4 dozen small cookies
 ingredients:
   - item: butter
