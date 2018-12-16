@@ -73,5 +73,5 @@ procedure:
     - Let pan cool in pan for 30 minutes. Chill in the refrigerator, loosely covered, for at least 4 hours. 
     - Loosen the cheesecake from the sies of the pan by running a thin metal spatula around the inside rim. Unmold and transfer to a cake polate.
     - Spread a layer of Warm Lemon Blueberry topping over the surface.
-    - Slice the cheesecake with a thin, non-serrated knoife that has been dipped in hot water. Wipe dry after each cut.
+    - Slice the cheesecake with a thin, non-serrated knife that has been dipped in hot water. Wipe dry after each cut.
 ---
