@@ -21,7 +21,12 @@ layout: master
         {% endif %}
         {% if page.preheat %}
         <li class="list-inline-item text-danger border rounded border-danger px-1">
-          Preheat Oven {{page.preheat}}ºF
+          Oven {{page.preheat}}ºF
+        </li>
+        {% endif %}
+        {% if page.sousvide %}
+        <li class="list-inline-item text-danger border rounded border-danger px-1">
+          Sous Vide {{page.sousvide}}ºF
         </li>
         {% endif %}
       </ul>
