@@ -20,7 +20,7 @@ ingredients:
     unit: c
   - item: cream of tartar
     qty: 0.5
-    unit: tg
+    unit: t
   - item: extra granulated sugar
 preheat: 350
 procedure:
