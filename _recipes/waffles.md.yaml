@@ -1,0 +1,39 @@
+---
+# vim: ft=yaml
+title: Waffles
+ingredients:
+  - item: AP flour
+    qty: 4.75
+    unit: oz
+  - item: whole wheat flour
+    qty: 4.75
+    unit: oz  
+  - item: sugar
+    qty: 3
+    unit: T
+  - item: kosher salt
+    qty: 1
+    unit: t
+  - item: baking powder
+    qty: 1
+    unit: t
+  - item: baking soda
+    qty: 0.5
+    unit: t
+  - item: eggs
+    qty: 3
+    prep: beaten
+  - item: butter
+    qty: 2
+    unit: oz
+    prep: melted
+  - item: buttermilk
+    qty: 16
+    unit: oz
+    prep: room temperature
+procedure:
+  - Combine dry ingredients. 
+  - Beat together eggs and melted butter. Add butterminlk and vanilla extract to the mix.
+  - Mix wet ingredients into dry ingredients.
+  - Let rest for 5 minutes then cook in a waffle iron until golden.
+---
