@@ -38,6 +38,8 @@
       tare: 118
     - name: Pyrex 2c
       tare: 589
+    - name: Pyrex 1l
+      tare: 797
 - name: Pots and Pans
   tares:
     - name: 10 inch skillet

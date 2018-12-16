@@ -8,9 +8,6 @@ title: Tare List
     <div class="col">
       <h1 class="d-flex justify-content-between align-items-center">
         Tare List
-        <div class="text-secondary small">
-          All masses in grams
-        </div>
       </h1>
 
       <div class="card-columns">
@@ -21,7 +18,7 @@ title: Tare List
             <dl class="">
             {% for tare in group.tares %}
             <dt class="">{{tare.name}}</dt>
-            <dd class="">{{tare.tare}}</dd>
+            <dd class="">{{tare.tare}}g</dd>
             {% endfor %}
             </dl>
           </div>
