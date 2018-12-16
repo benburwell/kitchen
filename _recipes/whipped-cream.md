@@ -11,9 +11,8 @@ ingredients:
 - item: vanilla
   qty: 1
   unit: t
-preheat: put bowl and mixers in freezer
 procedure:
+  - Chill bowl and beaters in freezer for as long as possible before starting.
   - Beat cream sugar and vanilla in chilled bowl with chilled mixer to stiff peaks.
 ---
-
-Double whipped cream recipe for ice box cake.
+To make icebox cake, double whipped cream recipe and layer with Nilla Wafers.
