@@ -1,0 +1,81 @@
+---
+# vim: ft=yaml
+title: Gluten Free Apple Crisp
+adapted_from:
+  name: The Bojon Gourmet
+  url: https://bojongourmet.com/2018/10/gluten-free-apple-crisp/
+yield: 4 servings
+ingredients:
+  - section: Fruit
+    items:
+    - item: tart baking apples
+      qty: 1.5
+      unit: lbs
+      prep: peeled, cored, cut into .5 inch thick wedges
+    - item: lemon juice
+      qty: 1
+      unit: T
+      prep: strained
+    - item: whiskey, bourbon, brandy, dark rum, or apple juice
+      qty: 1
+      unit: T
+    - item: granulated or light brown sugar
+      qty: 2
+      unit: T
+    - item: cornstarch or tapioca flour
+      qty: 1
+      unit: t    
+  - section: Topping
+    items:
+    - item: almond flour
+      qty: 0.25
+      unit: c
+    - item: GF rolled oats
+      qty: 0.25
+      unit: c
+    - item: walnuts or pecans
+      qty: 0.25
+      unit: c
+      prep: coarsely chopped
+    - item: oat flour
+      qty: 2
+      unit: T
+    - item: tapioca flour
+      qty: 1
+      unit: T
+    - item: light brown sugar
+      qty: 0.25
+      unit: c
+      prep: packed
+    - item: cinnamon
+      qty: 0.125
+      unit: t
+    - item: nutmeg
+      qty: 0.125
+      unit: t
+      prep: freshly grated
+    - item: fine sea salt
+      qty: 0.25
+      unit: t
+    - item: unsalted butter
+      qty: 3
+      unit: T
+      prep: melted
+  - item: vanilla ice cream
+    optional: yes     
+preheat: 350
+procedure:
+  - section: Fruit
+    items:
+    - In a large bowl, toss apple wedges with lemon, whiskey, sugar, cornstarch, and salt.
+    - Place apples in 8 inch round baking dish or pie plate. Place the dish on a baking sheet to catch any drips, and bake until apples are juicy, about 20-25 minutes.
+    - Gently stir apples to redistribute
+  - section: Topping
+    items:
+    - Combine almond flour, oats, nuts, oat flour, tapioca flour, brown sugar, cinnamon, nutmeg, and salt in a medium bowl.
+    - Stir in melted butter until the mixture forms large clumps
+    - Sprinkle topping over baked apples. Return to the oven and bake until golden brown and bubbling furiously, about 20-30 minutes.
+    - Let cool then spoon into bowls and serve with ice cream. 
+--- 
+
+Keep leftovers for up to 3 days, covered and chilled.
