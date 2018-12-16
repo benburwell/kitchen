@@ -1,7 +1,6 @@
 ---
 # vim: ft=yaml
 title: Sugar Cookies
-adapted_from:
 yield: 4 dozen cookies
 ingredients:
   - item: sugar
