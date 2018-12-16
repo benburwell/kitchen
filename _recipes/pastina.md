@@ -1,6 +1,6 @@
 ---
 # vim: ft=yaml
-title: Barilla Pastina
+title: Pastina
 adapted_from:
   name: Stephanie Vogel
 ingredients:
@@ -14,6 +14,6 @@ ingredients:
   - item: milk     
 procedure:
   - Boil 1qt water with 1 packet chicken bouillon. 
-  - Add 0.3c pastina and cook 5-7 minutes, stirring
-  - Drain if needed. Add butter and a splash of milk
+  - Add 0.3c pastina and cook 5-7 minutes, stirring.
+  - Drain if needed. Add butter and a splash of milk.
 ---
