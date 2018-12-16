@@ -1,9 +1,6 @@
 ---
 # vim: ft=yaml
 title: Waffles
-adapted_from:
-  name: J. Kenji Lopez-Alt
-yield: 
 ingredients:
   - item: AP flour
     qty: 4.75
