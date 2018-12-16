@@ -1,0 +1,15 @@
+---
+---
+
+body {
+  min-height: 100vh;
+}
+.list-inline-bulleted {
+  li::after {
+    margin-left: 0.5rem;
+    content: "•";
+  }
+  li:last-child::after {
+    content: "";
+  }
+}

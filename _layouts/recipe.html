@@ -69,3 +69,27 @@ layout: master
   </div>
   {% endif %}
 </div>
+
+<div class="bg-light text-secondary small mt-auto">
+  <div class="container">
+    <div class="row">
+      <div class="col py-4">
+        <ul class="list-inline list-inline-bulleted">
+          <li class="list-inline-item">
+            Generated on {{site.time|date:'%Y-%m-%d'}} at {{site.time|date:'%H:%M:%S %Z'}}
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/benburwell/kitchen/commits/master/{{page.path}}">
+              History
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/benburwell/kitchen/edit/master/{{page.path}}">
+              Edit
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
