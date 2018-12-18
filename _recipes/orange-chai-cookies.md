@@ -54,5 +54,5 @@ procedure:
   - Chill dough for 1 hour
   - Scoop out small portions of the dough and form balls no bigger than ping pong balls.
   - Place balls on on parchment covered cookie sheet about two inches apart.
-  - Bake at 350º for 10 minutes or until the cookies start to brown.
+  - Bake at 350º for 10 minutes, rotate pans, and cook for 3 minutes longer, until golden brown.
 ---
