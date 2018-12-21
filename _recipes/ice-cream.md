@@ -27,3 +27,9 @@ procedure:
   - Cool mixture to room temperature, cover, and chill at least 4 hours.
   - Churn according to ice cream machine instructions.
 ---
+
+### Coffee-Chocolate
+
+Add a tablespoon of instant espresso powder and a splash of coffee liqueur such
+as Tia Maria to the custard. Add in a cup or so of chocolate chunks just before
+churning is complete.
