@@ -7,9 +7,11 @@ title: Recipes
   <div class="row">
     <div class="col">
       <h1>Recipes</h1>
+      <ul>
       {% for recipe in site.recipes %}
-      <h2><a href="{{recipe.url}}">{{recipe.title}}</a></h2>
+      <li><a href="{{recipe.url}}">{{recipe.title}}</a></li>
       {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
