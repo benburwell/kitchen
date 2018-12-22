@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/k.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="apple-touch-icon-precomposed" href="icon.png">
+    <link rel="apple-touch-startup-image" href="splash.png">
   </head>
   <body class="d-flex flex-column">
     <nav class="navbar navbar-dark bg-dark mb-3">
@@ -22,5 +26,44 @@
       </div>
     </nav>
     {{content}}
+    <div class="bg-light text-secondary small mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col py-4">
+            <ul class="list-inline list-inline-bulleted">
+              <li class="list-inline-item">
+                Generated on {{site.time|date:'%Y-%m-%d'}} at {{site.time|date:'%H:%M:%S %Z'}}
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/benburwell/kitchen/commits/master/{{page.path}}">
+                  History
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/benburwell/kitchen/edit/master/{{page.path}}">
+                  Edit
+                </a>
+              </li>
+            </ul>
+            <p class="mb-0">
+              Icons made by <a href="https://smashicons.com/">Smashicons</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> are <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a>.
+              Recipes and all other content is subject to the <a href="https://unlicense.org/">Unlicense</a> and is in the public domain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+var links = document.getElementsByTagName('a');
+for (var i = 0; i < links.length; i++) {
+  var link = links[i];
+  if (!/^https?/.test(link.getAttribute('href'))) {
+    link.onclick = function() {
+      window.location = this.getAttribute('href');
+      return false;
+    };
+  }
+}
+    </script>
   </body>
 </html>

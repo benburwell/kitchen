@@ -7,10 +7,10 @@ title: Recipes
   <div class="row">
     <div class="col">
       <h1>Recipes</h1>
-      <ul>
-      {% for recipe in site.recipes %}
-      <li><a href="{{recipe.url}}">{{recipe.title}}</a></li>
-      {% endfor %}
+      <ul class="list-group mb-3">
+        {% for recipe in site.recipes %}
+        <li class="list-group-item"><a href="{{recipe.url}}">{{recipe.title}}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>
