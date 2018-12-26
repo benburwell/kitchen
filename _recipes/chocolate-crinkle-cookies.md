@@ -38,7 +38,6 @@ procedure:
   - In electric stand mixer with paddle attachment or large bowl, blend granulated sugar and oil  oil.
   - Mix in cocoa powder and blend well. Beat in eggs and vanilla.
   - Add flour mixture and combine. Cover dough and refrigerate overnight or freeze for 45 minutes
-  
   - The following day, preheat oven to 350º. Line baking sheets with parchment paper or silicone liners.
   - Place powdered sugar in small mixing bowl.
   - Remove about a quarter of the dough from the refrigerator to work with and let the remaining dough chill.
