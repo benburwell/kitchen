@@ -6,59 +6,59 @@ adapted_from:
   url: https://www.seriouseats.com/recipes/2015/09/clams-casino-recipe.html
 yield: 2 dozen clams
 ingredients:
-   - section: Bacon Bread Crumbs
-    items:
-    - item: bacon
-      qty: 6
-      unit: oz
-      prep: finely diced
-    - item: panko bread crumbs
-      qty: 1
-      unit: c
-    - item: salt and pepper
- - section: Clams
-    items:
-    - item: bacon
-      qty: 2
-      unit: oz
-      prep: finely diced
-    - item: shallots
-      qty: 3
-      unit: c
-      prep: minced
-    - item: garlic cloves
-      qty: 3
-    - item: red pepper flakes
-      qty: pinch
-      optional: yes  
-    - item: dry white wine
-      qty: 0.25
-      unit: c
-    - item: littleneck clams  
-      qty: 24
-      prep: purged and scrubbed
-    - item: flat-leaf parsley
-      qty: 0.5 
-      unit: c
-      prep: minced
-      divided: yes
-    - item: unsalted butter
-      qty: 2 
-      unit: sticks
-      prep: softened
-    - item: salt and pepper
-    - item: lemon wedges     
+- section: Bacon Bread Crumbs
+  items:
+  - item: bacon
+    qty: 6
+    unit: oz
+    prep: finely diced
+  - item: panko bread crumbs
+    qty: 1
+    unit: c
+  - item: salt and pepper
+- section: Clams
+  items:
+  - item: bacon
+    qty: 2
+    unit: oz
+    prep: finely diced
+  - item: shallots
+    qty: 3
+    unit: c
+    prep: minced
+  - item: garlic cloves
+    qty: 3
+  - item: red pepper flakes
+    qty: pinch
+    optional: yes  
+  - item: dry white wine
+    qty: 0.25
+    unit: c
+  - item: littleneck clams  
+    qty: 24
+    prep: purged and scrubbed
+  - item: flat-leaf parsley
+    qty: 0.5 
+    unit: c
+    prep: minced
+    divided: yes
+  - item: unsalted butter
+    qty: 2 
+    unit: sticks
+    prep: softened
+  - item: salt and pepper
+  - item: lemon wedges     
 preheat: 450
 procedure:
-  - secion: Purging Clams
-    items:
-    - Submerge clams in a large container of cold salted water and let stand for 30 minutes. 
-    - Lift out clams. If there is no sand in the bottom of the container, they're ready to scrub and use. 
-    - If there is sand, drain and rinse the container, fill with fresh cold salted water, and return clams for 30 more minutes.
-    - Continue this process until water is clear and free of sand. 
-  - section: Bacon Bread Crumbs
-    items:
-    - In a large skillet, cook 6oz diced bacon over medium-high heat, stirring, unitl fat has rendered and baon is brown and crisp, about 7 minutes. 
+- section: Purging Clams
+  items:
+  - Submerge clams in a large container of cold salted water and let stand for 30 minutes. 
+  - Lift out clams. If there is no sand in the bottom of the container, they're ready to scrub and use. 
+  - If there is sand, drain and rinse the container, fill with fresh cold salted water, and return clams for 30 more minutes.
+  - Continue this process until water is clear and free of sand. 
+- section: Bacon Bread Crumbs
+  items:
+  - In a large skillet, cook 6oz diced bacon over medium-high heat, stirring, unitl fat has rendered and baon is brown and crisp, about 7 minutes. 
     - Stir in bread crumbs to evenly coat in bacon fat and cook, stirring and tossing, until bread crumbs are lightly toasted, about 3 minutes.
     - Transfer to a bowl to cool and lightly season with salt and pepper.
   - section: Clams
