@@ -51,7 +51,7 @@ procedure:
   - In a large skillet, brown the paneer cubes on all sides over medium heat
     and remove from pan.
   - Add the onion, ginger, and garlic to the pan and saute until toffee
-    colored, about 15 minutes.
+    colored. This will take a solid 30 minutes, maybe more.
   - Add the garam masala, ground coriander, and ground cumin and cook for
     another 3-5 minutes.
   - Incorporate the spinach and season with salt. Cook for 10 minutes, adding
