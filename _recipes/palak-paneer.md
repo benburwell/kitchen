@@ -19,8 +19,8 @@ ingredients:
     qty: 2
     unit: lb
     prep: pureed
-  - item: large white onion
-    qty: 1
+  - item: medium white onion
+    qty: 2
     prep: finely diced
   - item: fresh ginger
     qty: 2
