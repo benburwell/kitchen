@@ -1,7 +1,7 @@
 ---
 # vim: ft=yaml
 title: Turkey Meatballs
-yield: 
+yield: 16 meatballs
 ingredients:
   - item: panko breadcrumbs
     qty: 85
