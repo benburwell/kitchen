@@ -25,15 +25,16 @@ ingredients:
   - item: oregano
     qty: 1
     unit: g
-  - item: fresh Italian parsley 
+  - item: fresh Italian parsley
     qty: 20
-    unit: g  
+    unit: g
   - item: egg
-    qty: 2  
-  - item: canola oil  
+    qty: 2
+  - item: canola oil
+preheat: 425
 procedure:
   - Mix milk and panko in large bowl until breadcrumbs are soggy.
   - Add rest of ingredients to bowl and mix with hands until well combined.
-  - Form into meatballs and place on a well oiled baking sheet and bake at 425º for 15 minutes.
+  - Form into meatballs and place on a well oiled baking sheet and bake at 425º to an internal temperature of 160ºF, about 15 minutes.
 ---
 Note: Add salt and more parmesean cheese. 
