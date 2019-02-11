@@ -52,7 +52,7 @@ ingredients:
   - item: cloves garlic cloves
     qty: 2
     prep: thinly sliced
-  - item: any mix of mussels (debearded), clams, or cockles, scrubbed
+  - item: any mix of mussels (debearded), clams, or cockles
     qty: 2
     unit: lbs
     prep: scrubbed
