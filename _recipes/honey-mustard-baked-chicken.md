@@ -14,5 +14,6 @@ ingredients:
 preheat: 375
 procedure:
   - Dredge the chicken breasts in the honey mustard and then the breadcrumbs.
-  - Bake on a lightly greased sheet pan until cooked.
+  - Bake on a lightly greased sheet pan until cooked to an internal temperature
+    of 165ºF, about 20-30 minutes depending on the thickness.
 ---
