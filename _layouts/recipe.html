@@ -2,21 +2,21 @@
 layout: master
 ---
 
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Recipe">
   <div class="row">
     <div class="col">
-      <h1>{{page.title}}</h1>
+      <h1 itemprop="name">{{page.title}}</h1>
       <ul class="list-inline text-secondary">
         {% if page.yield %}
-        <li class="list-inline-item">Yields {{page.yield}}</li>
+        <li class="list-inline-item">Yields <span itemprop="recipeYield">{{page.yield}}</span></li>
         {% endif %}
         {% if page.adapted_from %}
         {% if page.adapted_from.url %}
-        <li class="list-inline-item">Adapted from <a href="{{page.adapted_from.url}}">{{page.adapted_from.name}}</a></li>
+        <li class="list-inline-item">Adapted from <a href="{{page.adapted_from.url}}" itemprop="isBasedOn">{{page.adapted_from.name}}</a></li>
         {% elsif page.adapted_from.isbn %}
-        <li class="list-inline-item">Adapted from <a href="https://isbnsearch.org/isbn/{{page.adapted_from.isbn}}">{{page.adapted_from.name}}</a></li>
+        <li class="list-inline-item">Adapted from <a href="https://isbnsearch.org/isbn/{{page.adapted_from.isbn}}" itemprop="isBasedOn">{{page.adapted_from.name}}</a></li>
         {% else %}
-        <li class="list-inline-item">Adapted from {{page.adapted_from.name}}</li>
+        <li class="list-inline-item">Adapted from <span itemprop="isBasedOn">{{page.adapted_from.name}}</span></li>
         {% endif %}
         {% endif %}
         {% if page.preheat %}
@@ -39,12 +39,13 @@ layout: master
         {% if ingredient.section %}
           <h5>{{ingredient.section}}</h5>
           {% for item in ingredient.items %}
-          {% include ingredient.html ingredient=item %}
+            {% include ingredient.html ingredient=item %}
           {% endfor %}
         {% else %}
           {% include ingredient.html ingredient=ingredient %}
         {% endif %}
       {% endfor %}
+      </ul>
     </div>
     <div class="col-12 col-lg">
       <h2>Procedure</h2>
@@ -52,10 +53,10 @@ layout: master
         {% if step.section %}
           <h5>{{step.section}}</h5>
           {% for item in step.items %}
-          <p>{{item}}</p>
+          <p itemprop="recipeInstructions">{{item}}</p>
           {% endfor %}
         {% else %}
-          <p>{{step}}</p>
+          <p itemprop="recipeInstructions">{{step}}</p>
         {% endif %}
       {% endfor %}
     </div>
